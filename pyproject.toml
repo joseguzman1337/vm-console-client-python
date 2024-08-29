@@ -1,0 +1,32 @@
+[project]
+name = "rapid7_vm_console"
+version = "6.6.55"
+authors = [
+  { name="Rapid7", email="support@rapid7.com" },
+]
+license = { file = "LICENSE" }
+description = "InsightVM API"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "certifi>=2017.4.17",
+    "python-dateutil>=2.1",
+    "six>=1.10",
+    "urllib3>=1.23"
+]
+keywords = [
+    "Swagger",
+    "InsightVM API"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://github.com/rapid7/vm-console-client-python"
+
+[tool.setuptools]
+py-modules = []
+
+[tool.distutils.bdist_wheel]
+universal = true
